@@ -116,6 +116,7 @@ li {
   max-width: 1380px;
   margin: 0 auto;
   padding: 0 40px;
+  z-index: 1;
 }
 
 .section-title-area {
