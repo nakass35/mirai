@@ -1,0 +1,284 @@
+@charset "UTF-8";
+
+html{
+  font-size: 100%;
+}
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: .8px;
+  word-break: break-all;
+  color: #333;
+}
+
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+
+.logo{
+  width: 210px;
+  margin-top: 14px;
+}
+
+.main-nav{
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+
+.main-nav li{
+  margin-left: 36px;
+}
+.main-nav a{
+  color: #432;
+}
+.main-nav a:hover{
+  color: #0bd;
+}
+
+.page-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper{
+  max-width: 1100PX;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.home-content{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.home-content p{
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
+}
+
+/* 見出し */
+.page-title{
+  margin-top: 10%;
+  font-size: 2rem;
+  font-family: "DIN Alternate Bold","ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.page-title-book{
+  margin-top: 10%;
+  font-size: 2rem;
+  font-family: "DIN Alternate Bold","ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.page-title-book2{
+  margin-top: 10%;
+  font-size: 2rem;
+  font-family: "DIN Alternate Bold","ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+/*ボタン*/
+.button{
+  font-size: 1.375rem;
+  background: #0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 18px 32px;
+}
+
+.button:hover{
+  background: #0090aa;
+}
+
+/*大きな画像*/
+.big-bg{
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+
+
+/*MENU*/
+
+#menu{
+  background-image: url(../images/menu-bg.jpg);
+  min-height: 60vh;
+}
+.menu-content{
+  max-width: 700px;
+  margin-top: 10px;
+}
+.menu-content .page-title{
+  text-align: center;
+}
+
+.page-title-book{
+  text-align: center;
+  margin-top: -230px;
+}
+
+.page-title-book2{
+  text-align: center;
+  margin-top: -70px;
+}
+
+.menu-content p{
+  font-size: 1.125rem;
+  margin: 30px 0 0;
+  margin-bottom: 10%;
+}
+
+.slider{
+  background-color: #e3e3e5;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+
+
+/*--------------------------------
+　Section
+---------------------------------*/
+
+.section .inner {
+  padding: 80px 10px;
+}
+
+.section .section-title-block {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section .section-title {
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: lowercase;
+  letter-spacing: .2em;
+  display: inline-block;
+  font-size: 36px;
+  line-height: 1;
+  margin-bottom: 10px;
+  color: #f39ac7;
+}
+
+.section .section-desc {
+  text-align: center;
+}
+
+
+.two-column-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.two-column-image {
+  width: 33%;
+}
+
+.two-column-image img {
+  margin: 0 auto;
+}
+
+.two-column-desc {
+  width: 62%;
+}
+
+/*--------------------------------
+　feature
+---------------------------------*/
+
+#feature .two-column-image {
+  width: 48%;
+}
+
+#feature .two-column-desc {
+  width: 48%;
+}
+
+
+
+
+/*iframe*/
+iframe{
+  width: 100%;
+}
+
+/*sns*/
+#sns{
+  background: #faf7f0;
+  padding: 4% 0;
+}
+#sns .wrapper{
+  display: flex;
+  justify-content:space-between;
+}
+#sns .sub-title{
+  margin-bottom: 30px;
+}
+.sns-box{
+  width: 35%;
+}
+
+
+
+/*モバイル版*/
+@media screen and (max-width: 600px) {
+  .page-title{
+    font-size: 2.5rem;
+  }
+
+  /*HEADER*/
+
+  .maun-nav{
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  /*HOME*/
+  .home-content{
+    margin-top: 20%;
+  }
+
+  .page-header{
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+  /*MENU*/
+  .menu-content{
+    margin-top: 20%;
+  }
+  .big-box{
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .big-0box img{
+    height: 100%;
+  }
+
+  .slider{
+    margin-top: 30%;
+    margin-bottom: 10%;
+  }
