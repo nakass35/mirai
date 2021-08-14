@@ -109,9 +109,6 @@ li {
 /* 中島追記分 */
 .inner {
   position: relative;
-  max-width: 1380px;
-  margin: 0 auto;
-  padding: 0 40px;
 }
 
 .logo {
