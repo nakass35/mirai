@@ -22,6 +22,7 @@ a {
 
 /* videoを削除しました */
 img,
+video,
 object {
   display: block;
   max-width: 100%;
@@ -29,16 +30,6 @@ object {
   vertical-align: bottom;
   border: none;
 }
-
-/* 中島追加分 */
-video{
-  display: block;
-  max-width: 100%;
-  height: auto;
-  vertical-align: bottom;
-  border: none;
-}
-
 
 ul,
 li {
@@ -110,7 +101,22 @@ li {
   background-color: #f7f7f7;
 }
 
-.section .inner {
+.section {
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* 中島追記分 */
+.inner {
+  position: relative;
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.logo-title .logo-desc {
+  position: absolute;
   max-width: 1380px;
   margin: 0 auto;
   padding: 0 40px;
