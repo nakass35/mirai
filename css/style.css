@@ -100,14 +100,14 @@ li {
   background-color: #f7f7f7;
 }
 
-.section {
+.section .inner {
   max-width: 1380px;
   margin: 0 auto;
   padding: 0 40px;
 }
 
 /* 中島追記分 */
-.inner {
+.video-wrap {
   position: relative;
 }
 
