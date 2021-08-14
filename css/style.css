@@ -31,8 +31,7 @@ object {
 }
 
 /* 中島追加分 */
-img,
-object {
+video {
   display: block;
   max-height: 100%;
   width: auto;
