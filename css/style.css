@@ -20,7 +20,6 @@ a {
   color: #1ca9e3;
 }
 
-/* videoを削除しました */
 img,
 video,
 object {
@@ -115,7 +114,7 @@ li {
   padding: 0 40px;
 }
 
-.logo-title .logo-desc {
+.logo {
   position: absolute;
   max-width: 1380px;
   margin: 0 auto;
