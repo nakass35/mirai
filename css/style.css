@@ -33,8 +33,8 @@ object {
 /* 中島追加分 */
 video {
   display: block;
-  max-height: 100%;
-  width: auto;
+  max-width: 100%;
+  height: auto;
   vertical-align: bottom;
   border: none;
 }
