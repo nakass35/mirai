@@ -31,12 +31,17 @@ object {
 }
 
 /* 中島追加分 */
-video {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  vertical-align: bottom;
-  border: none;
+video{
+ position: fixed;
+ right: 0;
+ bottom: 0;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ z-index: -100;
+ background: url(movie.jpg) no-repeat;
+ background-size: cover;
 }
 
 
