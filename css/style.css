@@ -90,11 +90,11 @@ li {
 ---------------------------------*/
 #wrapper {
   padding-top: 68px;
-  background-color: #ff0000;
 }
 
 .section {
   padding: 100px 0;
+  background-color: #ff0000;
 }
 
 .section:nth-of-type(odd) {
