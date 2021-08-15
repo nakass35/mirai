@@ -36,8 +36,22 @@
       </ul>
     </nav>
     <header id="header">
-      <div class="video-wrap">
-          <video controls src="BG.mp4"></video> <!––中島追記部分––>
+                            <div class="video-wrap">
+                              <div id="video-area">
+                              <video id="video" poster="img/movie.jpg" webkit-playsinline playsinline muted autoplay loop>
+                              <!--
+                              poster：動画ファイルが利用できない環境で代替表示される画像
+                              webkit-playsinline：iOS 9までのSafari用インライン再生指定
+                              playsinline：iOS 10以降のSafari用インライン再生指定
+                              muted：音声をミュートさせる
+                              autoplay：動画を自動再生させる
+                              loop：動画をループさせる
+                              controls：コントロールバーを表示する
+                              -->
+                              <source src="video/movie.mp4" type="BG.mp4">
+                              <p>動画を再生できる環境ではありません。</p>
+                              </video>
+                              <!--/video-area--></div>
         <h1 class="logo">
           <div class="logo-title">mirai matsumoto</div>
           <div class="logo-desc">PORTFOLIO</div>
