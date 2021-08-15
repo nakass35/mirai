@@ -20,8 +20,8 @@ a {
   color: #1ca9e3;
 }
 
+/*video,*/
 img,
-video,
 object {
   display: block;
   max-width: 100%;
