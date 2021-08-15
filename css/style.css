@@ -94,7 +94,7 @@ li {
 
 .section {
   padding: 100px 0;
-  background-color: #ff0000;
+  background-color: #0000ff;
 }
 
 .section:nth-of-type(odd) {
