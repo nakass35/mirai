@@ -13,7 +13,7 @@ body{
 
 .flipbook-viewport .container{
 	align-items: center;
-	margin: 0px 50%;
+	margin: 500px 0px 50% 50%;
 }
 
 .flipbook-viewport .flipbook{
