@@ -13,6 +13,8 @@ body {
   letter-spacing: .8px;
   word-break: break-all;
   color: #333;
+  height: 100%;
+  margin: 0;
 }
 
 a {
@@ -517,7 +519,7 @@ li {
 ---------------------------------*/
 
 #footer {
-  background-color: #ffff00;
+  background-color: #00ffff;
 .push {
   height: 50px;
 }
