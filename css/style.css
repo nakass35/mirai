@@ -512,7 +512,7 @@ li {
 ---------------------------------*/
 
 #footer {
-  background-color: #0000ff;
+  background-color: #ff00ff;
   position: absolute;/*←絶対位置*/
   bottom: 0;
 }
