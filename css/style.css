@@ -13,8 +13,6 @@ body {
   letter-spacing: .8px;
   word-break: break-all;
   color: #333;
-  height: 100%;
-  margin: 0;
 }
 
 a {
@@ -92,11 +90,6 @@ li {
 ---------------------------------*/
 #wrapper {
   padding-top: 68px;
-    min-height: 100%;
- 
-  /* フッタの高さと等しいネガティブマージン */
-  /* また最後の子要素の潜在的なマージンとしても機能 */
-  margin-bottom: -50px;
 }
 
 .section {
@@ -520,9 +513,6 @@ li {
 
 #footer {
   background-color: #00ffff;
-.push {
-  height: 50px;
-}
 }
 
 #footer .inner {
