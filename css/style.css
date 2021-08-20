@@ -90,6 +90,11 @@ li {
 ---------------------------------*/
 #wrapper {
   padding-top: 68px;
+    min-height: 100%;
+ 
+  /* フッタの高さと等しいネガティブマージン */
+  /* また最後の子要素の潜在的なマージンとしても機能 */
+  margin-bottom: -50px;
 }
 
 .section {
@@ -512,9 +517,10 @@ li {
 ---------------------------------*/
 
 #footer {
-  background-color: #ff00ff;
-  position: absolute;/*←絶対位置*/
-  bottom: 0;
+  background-color: #ffff00;
+.push {
+  height: 50px;
+}
 }
 
 #footer .inner {
@@ -524,7 +530,7 @@ li {
 #footer .copyright {
   font-size: 10px;
   text-align: center;
-  color: #00ff00;
+  color: #ffffff;
 }
 
 /*media Queries 767
