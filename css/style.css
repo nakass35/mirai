@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 15px;
@@ -13,6 +18,9 @@ body {
   letter-spacing: .8px;
   word-break: break-all;
   color: #333;
+  
+  height: 100%;
+  margin: 0;
 }
 
 a {
@@ -90,7 +98,13 @@ li {
 ---------------------------------*/
 #wrapper {
   padding-top: 68px;
-}
+  
+  min-height: 100%;
+ 
+  /* フッタの高さと等しいネガティブマージン */
+  /* また最後の子要素の潜在的なマージンとしても機能 */
+  margin-bottom: -50px;
+  }
 
 .section {
   padding: 100px 0;
@@ -510,9 +524,14 @@ li {
 /*--------------------------------
  Footer
 ---------------------------------*/
+.push {
+  height: 50px;
+}
 
 #footer {
-  background-color: #00ffff;
+  background-color: #ff0000;
+  
+  height: 50px;
 }
 
 #footer .inner {
