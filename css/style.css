@@ -524,12 +524,9 @@ li {
 /*--------------------------------
  Footer
 ---------------------------------*/
+#footer,
 .push {
-  height: 50px;
-}
-
-#footer {
-  background-color: #ff0000;
+  background-color: #00ff00;
   
   height: 50px;
 }
