@@ -1,0 +1,57 @@
+.button01 {
+  text-align: center;
+}
+
+.button01 a {
+  display: inline-block;
+  position: relative;
+  top:-270px;
+  left:19px;
+  padding: 1em 1em 1em 50px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.button01 a::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border: 3px solid #aaaaaa;
+  border-radius: 50vh;
+  transition: 0.3s;
+}
+
+.button01 a::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #333333;
+  border-right: 2px solid #333333;
+  transition: 0.3s;
+}
+
+#btn1::after {
+  left: 12px;
+  transform: translateY(-50%) rotate(225deg);
+}
+#btn2::after {
+  left: 10px;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.button01 a:hover::before {
+  background-color: #333;
+}
+
+.button01 a:hover::after {
+  border-top: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+}
